@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Portfolio Starter',
-  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
-  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+  siteName: 'Amos Cheruiyot',
+  siteDescription: 'My Website',
+  siteUrl: 'https://amoscheruiyot.com',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',

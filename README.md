@@ -1,2 +1,2 @@
-# anis
+# Amos
 Amos Cheruiyot Portfolio

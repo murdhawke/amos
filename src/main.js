@@ -33,6 +33,11 @@ export default function (Vue, { router, head, isClient }) {
     content: 'Amos Cheruiyot'
   })
 
+  head.meta.push({
+    name: 'author',
+    content: 'Amos Cheruiyot'
+  })
+  
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'

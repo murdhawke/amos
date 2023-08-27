@@ -4,10 +4,10 @@
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div class="logos">
           <g-link v-if="theme === 'theme-light'" to="/" @click.native="scrollToTop">
-            <g-image  src="../../static/logo.svg" class="w-40" alt="logo" />
+            <g-image  immediate=true src="../../static/logo.svg" class="w-40" alt="logo" />
           </g-link>
           <g-link v-else to="/" @click.native="scrollToTop">
-            <g-image  src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" />
+            <g-image  immediate=true src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" />
           </g-link>
         </div>
         <div class="block lg:hidden">
